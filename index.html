@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>4-OY IMTIHON</title>
+    <link rel="icon" href="./images/svg/iconoir_book.svg">
+</head>
+<body class="">
+    
+    <!-- header -->
+    <header class="header w-full max-w-[796px] font-bold ml-auto mr-auto pl-[30px] pr-[30px]">
+        <img src="./images/svg/iconoir_book.svg" alt="">
+        <nav class="flex items-center">
+            <div class="font mr-[26px]">
+                <div id="dropdown" class=" z-10 hidden bg-white divide-y divide-gray-100 rounded-[16px] shadow-dropLight w-[16rem] dark:bg-[#1F1F1F] dark:text-white dark:shadow-dropDark absolute top-[37px] left-[-20px]" >
+                    <ul class="site-font py-4 px-4 text-sm text-gray-700 dark:text-gray-200">
+                        <li>
+                            <span class="block px-4 py-2 hover:text-[#A445ED] font-bold leading-[2.4rem] text-[1.8rem] font-serif cursor-pointer">sans</span>
+                        </li>
+                        <li>
+                            <span class="block px-4 py-2 hover:text-[#A445ED] font-bold leading-[2.4rem] text-[1.8rem] font-serif cursor-pointer">serif</span>
+                        </li>
+                        <li>
+                            <span class="block px-4 py-2 hover:text-[#A445ED] font-bold leading-[2.4rem] text-[1.8rem] font-mono cursor-pointer">mono</span>
+                        </li>
+                    </ul>
+                </div>
+                <img src="./images/svg/drop icon.svg " alt="">
+            </div>
+            <div class="path mr-[26px]"></div>
+            <div id="" class="flex">
+                <label id="dark-mode" class="relative inline-flex items-center mr-5 cursor-pointer">
+                    <input type="checkbox" value="" class="sr-only peer" checked>
+                    <div class="w-11 h-6 bg-gray-200 rounded-full peer dark:bg-gray-700 peer-focus:ring-4 peer-focus:ring-purple-300 dark:peer-focus:ring-purple-800 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-purple-600"></div>
+                  </label>
+                  <img src="./images/svg/moon.svg" alt="">
+            </div>
+        </nav>
+    </header>
+    
+
+
+
+    <main class="main w-full max-w-[796px] ml-auto mr-auto pl-[30px] pr-[30px] pt-[51px]">
+        <section>
+            <form>
+                <div class="flex">
+                    <div class="relative w-full items-center">
+                        <input type="search" id="" class="input bg-[#1F1F1F] text-[30px] block p-2.5 w-full min-h-[64px] z-20 text-sm  rounded-[16px]" placeholder="Search for any word…" required>
+                        <button id="input" class="absolute top-[15px] right-[24px] p-2.5 "><img id="search_btn" src="./images/svg/search.svg" alt=""></button>
+                    </div>
+                </div>
+                
+            </form>
+        </section>
+
+        <section class="flex pt-[45px] justify-between items-center">
+            <div class="">
+                <h1 id="key" class="text-[64px] font-bold leading-[77px]"></h1>
+                <small id="tracsiption" class="text-[#A445ED] pt-[8px] text-[24px] leading-[29px] font-normal"></small>
+            </div>
+            <div class=" ">
+                <img id="play_btn" class="" src="./images/svg/audio path.svg" alt="">
+            </div>
+        </section>
+        <section class="flex items-center pt-[40px]"><small id="noun" class="text-[24px] leading-[29px] italic font-bold mr-[20px]">noun</small> <hr class="bg-[#3A3A3A] w-[656px] h-[1px]"></section>
+
+        <section class="noun  pt-[40px]">
+            <h3 class="not-italic font-normal text-[#757575] text-[20px] leading-[24px]">Meaning</h3>
+            <div class="flex pt-[25px] items-center">
+                <img class="pr-[20px]" src="./images/svg/Oval.svg" alt="">
+                <p id="p1" class=" text-[18px] leading-[24px] text-[#fff]"></p>
+            </div>
+            <div class="flex pt-[25px] items-center">
+                <img class="pr-[20px]" src="./images/svg/Oval.svg" alt="">
+                <p id="p2" class=" text-[18px] leading-[24px] text-[#fff]"></p>
+            </div>
+            <div class="flex pt-[25px] items-center">
+                <img class="pr-[20px]" src="./images/svg/Oval.svg" alt="">
+                <p id="p3" class=" text-[18px] leading-[24px] text-[#fff]"></p>
+            </div>
+            <div class="flex pt-[64px]">
+                <p class="text-[#757575] pr-[22px]">Synonyms</p>
+                <p id="sysnonim" class="text-[#A445ED]"></p>
+            </div>
+        </section>
+         
+    </main>
+    
+
+
+
+    
+    <script src="app.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
